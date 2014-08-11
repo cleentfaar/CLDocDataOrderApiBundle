@@ -1,4 +1,4 @@
-# CLDocDataOrderApiBundle [![License](https://poser.pugx.org/cleentfaar/docdata-orderapi-bundle/license.svg)](https://packagist.org/packages/cleentfaar/docdata-orderapi-bundle)
+# DocData Order API bundle [![License](https://poser.pugx.org/cleentfaar/docdata-orderapi-bundle/license.svg)](https://packagist.org/packages/cleentfaar/docdata-orderapi-bundle)
 
 **WARNING: UNDER CONSTRUCTION**
 
