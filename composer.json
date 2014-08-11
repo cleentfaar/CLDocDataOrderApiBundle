@@ -23,6 +23,5 @@
     "psr-0": {
       "CL\\Bundle\\DocDataOrderApiBundle": ""
     }
-  },
-  "target-dir": "CL/Bundle/DocDataOrderApiBundle"
+  }
 }
