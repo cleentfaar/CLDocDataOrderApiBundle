@@ -1,0 +1,28 @@
+{
+  "name": "cleentfaar/docdata-orderapi-bundle",
+  "description": "This bundle provides integration with the DocData Order API, allowing you to create and process DocData orders, from within your Symfony2 project",
+  "keywords": ["docdata", "payment", "order", "api", "symfony"],
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Cas Leentfaar",
+      "homepage": "https://github.com/cleentfaar",
+      "email": "info@casleentfaar.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "symfony/framework-bundle": "~2.4",
+    "cleentfaar/docdata-orderapi": "~0.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.1"
+  },
+  "autoload": {
+    "psr-0": {
+      "CL\\Bundle\\DocDataOrderApiBundle": ""
+    }
+  },
+  "target-dir": "CL/Bundle/DocDataOrderApiBundle"
+}
