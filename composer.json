@@ -19,6 +19,7 @@
   "require-dev": {
     "phpunit/phpunit": "~4.1"
   },
+  "target-dir": "CL/Bundle/DocDataOrderApiBundle",
   "autoload": {
     "psr-0": {
       "CL\\Bundle\\DocDataOrderApiBundle": ""
