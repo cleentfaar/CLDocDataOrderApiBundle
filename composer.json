@@ -14,7 +14,7 @@
   "require": {
     "php": ">=5.4",
     "symfony/framework-bundle": "~2.4",
-    "cleentfaar/docdata-orderapi": "~0.1"
+    "cleentfaar/docdata-orderapi": "dev-master"
   },
   "require-dev": {
     "phpunit/phpunit": "~4.1"
