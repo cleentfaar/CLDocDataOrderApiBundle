@@ -19,7 +19,7 @@ class Configuration implements ConfigurationInterface
             ->children()
                 ->scalarNode('merchant_username')->isRequired()->end()
                 ->scalarNode('merchant_password')->isRequired()->end()
-                ->booleanNode('test')->defaultTrue()->end()
+                ->booleanNode('test')->defaultFalse()->end()
             ->end()
         ;
 
