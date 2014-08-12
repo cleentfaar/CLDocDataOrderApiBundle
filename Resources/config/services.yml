@@ -4,4 +4,4 @@ parameters:
 services:
   cl_docdata_orderapi.api_client:
     class: %cl_docdata_orderapi.api_client.class%
-    args: [%cl_docdata_orderapi.merchant_username%, %cl_docdata_orderapi.merchant_password%, %cl_docdata_orderapi.test%]
+    args: [%cl_docdata_orderapi.merchant_name%, %cl_docdata_orderapi.merchant_password%, %cl_docdata_orderapi.test%]
