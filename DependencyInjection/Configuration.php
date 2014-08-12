@@ -17,9 +17,9 @@ class Configuration implements ConfigurationInterface
 
         $rootNode
             ->children()
-                ->scalarNode('merchant_username')->end()
-                ->scalarNode('merchant_password')->end()
-                ->booleanNode('test')->defaultFalse()->end()
+                ->scalarNode('merchant_username')->isRequired()->end()
+                ->scalarNode('merchant_password')->isRequired()->end()
+                ->booleanNode('test')->defaultTrue()->end()
             ->end()
         ;
 
