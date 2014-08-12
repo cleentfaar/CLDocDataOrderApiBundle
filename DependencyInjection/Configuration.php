@@ -13,7 +13,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('cl_docdata_orderapi');
+        $rootNode = $treeBuilder->root('cl_doc_data_order_api');
 
         $rootNode
             ->children()

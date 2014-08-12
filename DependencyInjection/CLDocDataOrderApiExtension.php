@@ -29,8 +29,8 @@ class CLDocDataOrderApiExtension extends Extension
      */
     protected function setParameters(ContainerBuilder $container, array $config)
     {
-        $container->setParameter('cl_docdata_orderapi.merchant_name', $config['merchant_name']);
-        $container->setParameter('cl_docdata_orderapi.merchant_password', $config['merchant_password']);
-        $container->setParameter('cl_docdata_orderapi.test', $config['test']);
+        $container->setParameter('cl_doc_data_order_api.merchant_name', $config['merchant_name']);
+        $container->setParameter('cl_doc_data_order_api.merchant_password', $config['merchant_password']);
+        $container->setParameter('cl_doc_data_order_api.test', $config['test']);
     }
 }
