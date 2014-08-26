@@ -1,7 +1,7 @@
 parameters:
-  cl_doc_data_order_api.api_client.class: CL\DocDataApi\ApiClient
+  cl_doc_data_order_api.api_client.class: CL\DocData\Component\OrderApi\ApiClient
 
 services:
   cl_doc_data_order_api.api_client:
     class: %cl_doc_data_order_api.api_client.class%
-    args: [%cl_doc_data_order_api.merchant_name%, %cl_doc_data_order_api.merchant_password%, %cl_doc_data_order_api.test%]
+    arguments: [%cl_doc_data_order_api.merchant_name%, %cl_doc_data_order_api.merchant_password%, %cl_doc_data_order_api.test%]
