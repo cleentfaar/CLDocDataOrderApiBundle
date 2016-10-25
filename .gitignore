@@ -1,2 +1,7 @@
 composer.lock
 vendor/*
+
+# IDE files
+.buildpath
+.project
+.settings/*
