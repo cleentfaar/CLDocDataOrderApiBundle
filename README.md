@@ -3,7 +3,7 @@
 **WARNING: UNDER CONSTRUCTION**
 
 This bundle provides integration with the [DocData Order API](https://github.com/cleentfaar/doctrine-orderapi) library,
-allowing you to create and process DocData orders from within your Symfony2 project.
+allowing you to create and process DocData orders from within your Symfony2 or Symfony3 project.
 
 [![Build Status](https://secure.travis-ci.org/cleentfaar/CLDocDataOrderApiBundle.svg)](http://travis-ci.org/cleentfaar/CLDocDataOrderApiBundle)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/cleentfaar/CLDocDataOrderApiBundle/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/cleentfaar/CLDocDataOrderApiBundle/?branch=master)
